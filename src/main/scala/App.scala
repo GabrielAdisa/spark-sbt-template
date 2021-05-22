@@ -4,7 +4,12 @@ object App {
 
   def main(args: Array[String]) = {
 
-    val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
+    val spark = SparkSession
+      .builder()
+      .appName("Simple Application")
+      .config("spark.master", "local")
+      .getOrCreate()
+
     val result = DstiJob.run(spark)
     spark.stop
 
