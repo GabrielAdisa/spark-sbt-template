@@ -6,7 +6,7 @@ object App {
 
     val spark = SparkSession
       .builder()
-      .appName("Simple Application")
+      .appName("Log Analyzer")
       .config("spark.master", "local")
       .getOrCreate()
 
