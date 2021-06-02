@@ -29,8 +29,10 @@ cp target/scala-2.12/spark-sbt-template-assembly-1.0.jar $TARGET_LOCATION
 To run your project locally:
 ```
 JAR_PATH=$(pwd)/target/scala-2.12/spark-sbt-template-assembly-1.0.jar
-spark-submit --master=local[*] --deploy-mode client --class App $JAR_PATH
+spark-submit --master=local[*] --deploy-mode client --class LogAnalyzer $JAR_PATH
 ```
+![sbt_command2](https://user-images.githubusercontent.com/48090690/120452709-4e360b80-c38a-11eb-9f6e-6832a2b4b768.jpg)
+
 
 ## AWS
 
