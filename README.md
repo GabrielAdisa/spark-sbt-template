@@ -4,10 +4,17 @@ This sbt template enables you to create a new spark project
 
 ## Package
 
+clean   -   Deletes all generated files (in the target directory).
+```bash
+sbt clean
+```
+
 To package your project:
 ```bash
 sbt assembly
 ```
+![sbt_command1](https://user-images.githubusercontent.com/48090690/120452072-dcf65880-c389-11eb-9c61-85b32d7074d0.jpg)
+
 
 ## Deploy 
 
