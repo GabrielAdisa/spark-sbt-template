@@ -13,8 +13,7 @@ To package your project:
 ```bash
 sbt assembly
 ```
-![sbt_command1](https://user-images.githubusercontent.com/48090690/120452072-dcf65880-c389-11eb-9c61-85b32d7074d0.jpg)
-
+![sbt_command3](https://user-images.githubusercontent.com/48090690/120478351-ab3ebb00-c3a4-11eb-9700-09f235f3ffbf.jpg)
 
 ## Deploy 
 
@@ -31,7 +30,7 @@ To run your project locally:
 JAR_PATH=$(pwd)/target/scala-2.12/spark-sbt-template-assembly-1.0.jar
 spark-submit --master=local[*] --deploy-mode client --class LogAnalyzer $JAR_PATH
 ```
-![sbt_command2](https://user-images.githubusercontent.com/48090690/120452709-4e360b80-c38a-11eb-9f6e-6832a2b4b768.jpg)
+![sbt_command4](https://user-images.githubusercontent.com/48090690/120479064-6bc49e80-c3a5-11eb-938b-5c7603bb0d95.jpg)
 
 
 ## AWS
